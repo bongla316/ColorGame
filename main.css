@@ -1,0 +1,29 @@
+body {
+   background-color: #232323;
+}
+
+.container {
+   margin: 0 auto;
+}
+
+.header {
+   font-size: 20px;
+   background: blue;
+   color: white;
+   text-align: center;
+}
+
+.colorGrid {
+   display: grid;
+   max-width: 600px;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   grid-gap: 1em;
+   margin: 0 auto;
+}
+
+.box {
+   background: purple;
+   padding-bottom: 100%;
+   border-radius: 10px;
+}
