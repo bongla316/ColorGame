@@ -2,6 +2,10 @@ body {
    background-color: #232323;
 }
 
+#color {
+   font-size: 3em;
+}
+
 .container {
    margin: 0 auto;
 }
@@ -26,4 +30,6 @@ body {
    background: purple;
    padding-bottom: 100%;
    border-radius: 10px;
+   transition: opacity 0.5s;
 }
+
